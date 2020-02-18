@@ -46,7 +46,7 @@ public class FormAPI implements FormImpl {
         Map<String, FormWindow> formWindowMap = new HashMap<>();
         formWindowMap.put(name, formWindow);
 
-        if (this.get(name) != null) {
+        if (this.get(name) == null) {
             formWindowList.add(formWindowMap);
         } else {
             formWindowList.add(this.getId(name), formWindowMap);
