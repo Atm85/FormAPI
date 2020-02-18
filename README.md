@@ -54,7 +54,7 @@ public class ExampleEvent implements Listener {
     public void onEvent(PlayerFormRespondedEvent event) {
 
         // simply check for the form id and bam! its that easy...
-        if (event.getFormId == plugin.formAPI.getId("name")){
+        if (event.getFormId() == plugin.formAPI.getId("name")){
             
         }
 
