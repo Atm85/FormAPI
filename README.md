@@ -4,6 +4,14 @@
 
 ### API documentation
 
+ + depend on this plugin
+```yaml
+# plugin.yml
+...
+depend:
+  - FormAPI
+```
+
  + init FormAPI in Main class
 ```java
 
