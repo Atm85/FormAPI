@@ -49,7 +49,7 @@ public class FormAPI implements FormImpl {
         if (this.get(name) == null) {
             formWindowList.add(formWindowMap);
         } else {
-            formWindowList.add(this.getId(name), formWindowMap);
+            formWindowList.set(this.getId(name), formWindowMap);
         }
 
     }
